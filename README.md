@@ -14,3 +14,10 @@
 
 ### Old Project Demo
 [Watch on YouTube](https://www.youtube.com/watch?v=8HqtthZS01w)  
+
+### Gradio Based User Interface Demo
+[Watch on YouTube](https://www.youtube.com/watch?v=efYL0NAV1uY)  
+
+### Flask Based User Interface Demo
+[Watch on YouTube](https://www.youtube.com/watch?v=PnQqAiyK6No)
+

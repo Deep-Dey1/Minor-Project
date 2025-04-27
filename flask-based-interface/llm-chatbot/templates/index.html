@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LITE - AI Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Heading -->
+        <h1>LITE - AI</h1>
+        <p class="subtitle">LITE - AI Chat Interface Using A Light RAG Model Based on MISTRAL</p>
+
+        <!-- Chat Box -->
+        <div id="chat-box" class="chat-box"></div>
+
+        <!-- Input Box -->
+        <div class="input-container">
+            <textarea id="user-input" placeholder="Type your question here..."></textarea>
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
